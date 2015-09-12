@@ -122,5 +122,6 @@ ElementType FrontAndDequeue(Queue Q)
         int value=++Q->Front;
         Q->Front=value==Q->Capacity?0:value;
     }
+    
     return X;
 }
